@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <test name="Test" preserve-order="true">
+
+        <classes>
+
+            <class name="swagtestpkg.SwagLoginTest"/>
+            <class name="swagtestpkg.SwagHomeTest"/>
+            <class name="swagtestpkg.SwagCartTest"/>
+            <class name="swagtestpkg.SwagCheckoutTest"/>
+            <class name="swagtestpkg.SwagPaymentTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
